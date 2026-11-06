@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Plan | Pricing Cards</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">✦ PricePlan</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#plans">Plans</a>
+            <a href="#features">Features</a>
+        </nav>
+
+        <div class="nav-buttons">
+            <button class="login-btn">Login</button>
+            <button class="start-btn">Get Started</button>
+        </div>
+    </header>
+
+
+    <!-- Main Pricing Section -->
+    <main id="home" class="pricing-container">
+
+        <h1>Choose Your Plan</h1>
+
+        <p class="subtitle">
+            Choose the perfect plan that suits your needs and budget.
+        </p>
+
+
+        <!-- Monthly / Yearly Toggle -->
+        <div class="pricing-toggle">
+            <button id="monthlyBtn" class="active">
+                Monthly
+            </button>
+
+            <button id="yearlyBtn">
+                Yearly
+            </button>
+        </div>
+
+
+        <!-- Pricing Cards -->
+        <section id="plans" class="pricing-cards">
+
+
+            <!-- Basic Plan -->
+            <div class="pricing-card">
+
+                <h2>Basic Plan</h2>
+
+                <p class="plan-description">
+                    Perfect for beginners
+                </p>
+
+                <h3 class="price">
+                    ₹<span class="amount" data-monthly="199" data-yearly="1999">199</span>
+                    <small class="period">/month</small>
+                </h3>
+
+                <p class="card-info">Features included</p>
+
+                <ul>
+                    <li>✔ Basic features access</li>
+                    <li>✔ 5 Projects</li>
+                    <li>✔ Email support</li>
+                    <li>✔ Basic analytics</li>
+                    <li>✔ Community access</li>
+                </ul>
+
+                <button class="plan-btn">Get Started</button>
+
+            </div>
+
+
+            <!-- Advanced Plan -->
+            <div class="pricing-card popular">
+
+                <span class="popular-badge">Most Popular</span>
+
+                <h2>Advanced Plan</h2>
+
+                <p class="plan-description">
+                    Best for growing businesses
+                </p>
+
+                <h3 class="price">
+                    ₹<span class="amount" data-monthly="499" data-yearly="4999">499</span>
+                    <small class="period">/month</small>
+                </h3>
+
+                <p class="card-info">Everything in Basic, plus</p>
+
+                <ul>
+                    <li>✔ Unlimited projects</li>
+                    <li>✔ Advanced features</li>
+                    <li>✔ Priority support</li>
+                    <li>✔ Advanced analytics</li>
+                    <li>✔ Team collaboration</li>
+                </ul>
+
+                <button class="plan-btn">Get Started</button>
+
+            </div>
+
+
+            <!-- Premium Plan -->
+            <div class="pricing-card">
+
+                <h2>Premium Plan</h2>
+
+                <p class="plan-description">
+                    For professional users
+                </p>
+
+                <h3 class="price">
+                    ₹<span class="amount" data-monthly="999" data-yearly="9999">999</span>
+                    <small class="period">/month</small>
+                </h3>
+
+                <p class="card-info">Everything in Advanced, plus</p>
+
+                <ul>
+                    <li>✔ Unlimited access</li>
+                    <li>✔ Premium features</li>
+                    <li>✔ 24/7 support</li>
+                    <li>✔ Custom reports</li>
+                    <li>✔ Dedicated assistance</li>
+                </ul>
+
+                <button class="plan-btn">Get Started</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
